@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BarChartComponent } from "./bar-chart-2/bar-chart.component";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { ScatterComponent } from './scatter/scatter.component';
   declarations: [
     AppComponent,
     BarComponent,
+    BarChartComponent,
     PieComponent,
     ScatterComponent
   ],

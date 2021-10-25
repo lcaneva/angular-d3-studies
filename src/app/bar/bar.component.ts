@@ -41,6 +41,7 @@ export class BarComponent implements OnInit {
   ngOnInit(): void {
     this.svg = d3.select("#svg-container")
       .append("svg")
+      .attr("id", "bar-chart")
       .attr("width", this.totalWidth)
       .attr("height", this.totalHeight);
     this.chart = this.svg.append('g')
